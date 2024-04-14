@@ -1,1 +1,3 @@
-# project_02
+ Data Acquisition 
+ Data Wrangling
+            
