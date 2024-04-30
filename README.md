@@ -1,16 +1,25 @@
+
 Data Acquisition:
-Definition: Data acquisition is the process of collecting raw data from various sources such as databases, APIs, files, sensors, or manual entry.
-Methods:
-Web Scraping: Extracting data from websites using tools like BeautifulSoup or Scrapy.
-APIs: Accessing data from application programming interfaces (APIs) provided by platforms like Twitter, Google, or financial data providers.
-Databases: Retrieving data from relational databases (SQL) or NoSQL databases.
-Files: Reading data from CSV, JSON, Excel, or other file formats.
+
+Sources: The data is collected from databases that provide historical weather data.
+
+Methods: Data is acquired using python libraries to extract information from the database
+Reading Files:
+CSV Files: Using libraries like pandas (pd.read_csv) to read comma-separated values (CSV) files.
+Excel Files: pandas (pd.read_excel) for reading Excel files.
+
 Data Wrangling:
-Definition: Data wrangling, also known as data munging, is the process of cleaning, transforming, and organizing raw data into a suitable format for analysis.
-Steps:
-Data Cleaning: Handling missing values, correcting data types, removing duplicates, and dealing with outliers.
-Data Transformation: Converting data into a consistent format, scaling features, encoding categorical variables, and creating new features.
-Data Integration: Combining multiple data sources or tables into a unified dataset.
-Data Reduction: Aggregating or summarizing data to reduce its size while preserving relevant information.
-Data acquisition lays the foundation by bringing in data, while data wrangling prepares the data for analysis by ensuring its quality, consistency, and usability. These processes are crucial in the data science pipeline for extracting meaningful insights and building reliable models.
-            
+
+Cleaning: Raw weather data is cleaned by handling missing values, outliers, and inconsistencies.
+Transformation: Data is transformed by converting datatype, timestamps, scaling temperature units. .
+Integration: Additional data sources such as seasonal data or temprature casual statistics may be integrated to enrich the weather dataset.
+
+Analysis:
+
+The cleaned and transformed weather data is ready for analysis, which may include visualizations, trend analysis, or machine learning models to predict weather patterns or impacts on various sectors like agriculture, tourism, or energy.
+
+
+Conclusion:
+
+Effective data acquisition and wrangling are crucial for working with weather-related datasets, enabling better analysis and decision-making in weather-dependent industries and research fields.
+
