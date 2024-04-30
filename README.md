@@ -4,7 +4,8 @@
 ## Sources:
 The data is collected from databases that provide historical weather data.
 
-## Methods: Data is acquired using python libraries to extract information from the database
+## Methods:
+Data is acquired using python libraries to extract information from the database
 Reading Files:
 CSV Files: Using libraries like pandas (pd.read_csv) to read comma-separated values (CSV) files.
 Excel Files: pandas (pd.read_excel) for reading Excel files.
