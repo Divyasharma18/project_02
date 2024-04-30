@@ -1,9 +1,6 @@
 
 # Data Acquisition:
 
-## Sources:
-The data is collected from databases that provide historical weather data.
-
 ## Methods:
 Data is acquired using python libraries to extract information from the database
 Reading Files:
